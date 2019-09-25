@@ -1,7 +1,6 @@
 var chai = require('chai')
 var sinon = require('sinon')
 var sinonChai = require('sinon-chai')
-var { describe, it } = require('mocha')
 var deliverPresents = require('./santa')
 var expect = chai.expect
 

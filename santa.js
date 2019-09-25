@@ -1,5 +1,11 @@
 function deliverPresents(houses) {
-  console.log('Delivering presents to ' + houses[0])
+
+
+  while ((i = houses.shift()) !== undefined) {
+    console.log('Delivering presents to ' + i)
+  }
+
+
 }
 
 module.exports = deliverPresents
